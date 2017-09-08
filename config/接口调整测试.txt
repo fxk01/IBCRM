@@ -1,0 +1,438 @@
+---新建企业客户接口（去掉时间）请求成功
+{"enterpriseRecord":
+	{"sure":"",
+	"custName":"江阴市盛凯环保设备有限公司",
+	"owner":"009346",
+	"ownerScope":"",
+	"custProtrade":"114-C",
+	"custTrade":"114-C35",
+	"city":"DF1501",
+	"isComp":"Y",
+	"province":"DF15",
+	"ownerTeam":"",
+	"createTs":"",
+	"readOnlyflag":"",
+	"isFormal":"1",
+	"cust_category":"C002",
+	"custRefname":"1",
+	"country":"111156",
+	"address": "地址",
+	"ownerMobile":"",
+	"remark":""}}
+
+---新建拜访记录接口 请求成功
+
+{"visitRecord":
+	{"visitDate":"2013/9/30",
+	"customerName":"深圳市友和道通实业有限公司",
+	"customerId":"3311",
+	"participants":"李李,蒲小蓉,王朝晖,江禹",
+	"readOnlyflag":"",
+	"participantsId":"001236,009169",
+	"visitObject":"lining",
+	"sensitive":"N",
+	"startDate":"2013/6/25",
+	"endDate":"2013/6/25",
+	"positionName":"",
+	"interviewSummary":"",
+	"caseAnalyse":"",
+	"customerType":"inve_cust",
+	"busChance":"",
+	"createBy":"009169",
+	"conditions":[{
+		"conditionId":"",
+		"materialName":"",
+		"materialProvider":"",
+		"createdTime":""}],
+	"authInfo":[{
+		"authId":"",
+		"name":"",
+		"authRole":"",
+		"deptName":"",
+		"startTime":"",
+		"endTime":""}],
+	"contactId":"1-2C5JWYV",
+	"projectId":"4324",
+	"projectName":"43324",
+	"visitType":"pro_visit",
+	"visitId":"8F19CB92CB184986828F714BA07FBE12",
+	"cust_category":""},
+	"loginCode":"002379"}
+
+
+
+{"visitRecord":
+	{"visitDate":"2013/9/30",
+	"customerName":"深圳市友和道通实业有限公司",
+	"customerId":"3311",
+	"participants":"丁璐斌",
+	"readOnlyflag":"",
+	"participantsId":"002379",
+	"visitObject":"丁璐斌",
+	"sensitive":"N",
+	"startDate":"2013/6/25",
+	"endDate":"2013/6/25",
+	"positionName":"",
+	"interviewSummary":"",
+	"caseAnalyse":"",
+	"customerType":"corp_cust",
+	"busChance":"",
+	"createBy":"002379",
+	"conditions":[{
+		"conditionId":"",
+		"materialName":"",
+		"materialProvider":"",
+		"createdTime":""}],
+	"authInfo":[{
+		"authId":"",
+		"name":"",
+		"authRole":"",
+		"deptName":"",
+		"startTime":"",
+		"endTime":""}],
+	"contactId":"02B429345BC42190E053C0A837052190",
+	"projectId":"",
+	"projectName":"",
+	"visitType":"",
+	"visitId":"",
+	"cust_category":""},
+	"loginCode":"002379"}
+
+
+
+---新建、修改潜在业务机会接口（去掉时间格式）请求成功
+{"opptyRecord":
+	{"opptId":"09754087375C2735E0530100007F30D8",
+	"startDate":"",
+	"endDate":"",
+	"visitId":"09754087375B2735E0530100007F30D8",
+	"opptPtype" :"mergers",
+	"oppType":"non_public",
+	"opptDesc":"",
+	"createContact":"13599999999",
+	"createBy":"009383",
+	"cCreateBy":"",
+	"comments":"",
+	"custType":"corp_cust",
+	"reviewType":"",
+	"custName":"深圳市友和道通实业有限公司",
+	"custId":"3311",
+	"cust_category":"13500000000"},
+	"loginCode":"009346"}
+
+---新建联系人接口配置 请求成功
+{"contactRecord":
+	{"contactName":"李云环",
+	"positionName":"普通",
+	"custName":"2013年东台市国有资产经营有限公司",
+	"custId":"3389",
+	"contactsType":"bondright",
+	"custType":"corp_cust",
+	"ecifId":"",
+	"email":"",
+	"mobile":"13600000000",
+	"phone":"13600000000",
+	"industry":"",
+	"readOnlyflag":"",
+	"authName":"",
+	"createTs":"",
+	"contactId":"",
+	"authInfo":[{
+		"name":"",
+		"authId":"",
+		"startTime":"",
+		"endTime":"",
+		"deptName":"",
+		"authRole":""}],
+	"isMain":"",
+	"fax":"",
+	"msn":"",
+	"qq":"",
+	"remark":"",
+	"team":"",
+	"frequency":"",
+	"cust_category":"",
+	"createBy":""},
+	"loginCode":"009346",
+	"deptName":""}
+
+---企业客户查询接口 请求成功
+
+{"enterpriseRecord":
+	{"sure":"",
+	"custName":"",
+	"opptPtype":"",
+	"opptType":"",
+	"owner":"",
+	"ownerScope":"",
+	"custProtrade":"",
+	"custTrade":"",
+	"city":"",
+	"isComp":"",
+	"province":"",
+	"ownerTeam":"",
+	"createTs":"",
+	"readOnlyflag":"",
+	"isFormal":"",
+	"cust_category":"",
+	"authInfo":[{
+		"name":"",
+		"authId":"",
+		"startTime":"",
+		"endTime":"",
+		"deptName":"",
+		"authRole":""}],
+	"secode":"",
+	"custType":"",
+	"custId":"",
+	"custRefname":"",
+	"country":"",
+	"address":"",
+	"ownerMobile":"",
+	"remark":""},
+	"start":"0",
+	"length":"2",
+	"userInfo":
+	{"deptName":"华泰瑞联基金",
+	"userCode":"007212",
+	"roleList":["综合管理部"]}}
+
+
+
+---企业客户详细信息接口 请求成功
+{"custId":"4422a9166f8540cd8ba79f102a8bcd03"}
+
+ ---删除企业客户接口配置 请求成功
+{"custId":"",
+	"userInfo":
+	{"deptName":"华泰瑞联基金",
+	"userCode":"007212",
+	"roleList":["综合管理部"]}}
+
+---修改企业客户详细信息接口（去掉时间）  请求成功
+{"enterpriseRecord":
+	{"sure":"",
+	"custName":"江阴市盛凯环保设备有限公司",
+	"owner":"009346",
+	"ownerScope":"",
+	"custProtrade":"114-C",
+	"custTrade":"114-C35",
+	"city":"DF1501",
+	"isComp":"Y",
+	"province":"DF15",
+	"ownerTeam":"",
+	"createTs":"",
+	"readOnlyflag":"",
+	"isFormal":"1",
+	"cust_category":"C002",
+	"custRefname":"1",
+	"country":"111156",
+	"address": "地址",
+	"ownerMobile":"",
+	"remark":""}}
+
+---行业一级分类列表接口  请求成功
+{}
+---行业二级分类列表接口配置  请求成功
+{"first":""}
+---客户类型接口  请求成功
+{}
+---查询参与人员列表接口 请求成功
+---查询投资者客户列表接口 请求成功
+---查询访问对象列表接口  发送请求成功
+{"custId":"1-HF37-47",
+	"custName":"",
+	"userInfo":
+	{"deptName":"华泰瑞联基金",
+	"userCode":"007212",
+	"roleList":["综合管理部"]}}
+---查询潜在业务机会列表接口  发送请求成功
+{"opptyRecord":
+                          	{"opptId":"",
+                          	"startDate":"",
+                          	"endDate":"",
+                          	"visitId":"",
+                          	"opptPtype":"",
+                          	"oppType":"",
+                          	"opptDesc":"",
+                          	"createContact":"",
+                          	"createBy":"",
+                          	"cCreateBy":"",
+                          	"createTs":"",
+                          	"comments":"",
+                          	"visitDate":"",
+                          	"custType":"",
+                          	"reviewType":"",
+                          	"custName":"",
+                          	"custId":"",
+                          	"cust_category":""},
+                          	"start":"2",
+                          	"length":"2",
+                          	"userInfo":
+                          	{"deptName":"华泰瑞联基金",
+                          	"userCode":"007212",
+                          	"roleList":["综合管理部"]}}
+---查询潜在业务机会详细信息接口   发送请求成功
+
+---查询潜在业务机会类型接口   发送请求成功
+
+---查询潜在业务机会子类型接口  发送请求成功
+
+---查询联系人类型接口    发送请求成功
+
+---查询联系人列表接口    发送请求成功
+
+{"contactRecord":
+	{"contactName":"",
+	"positionName":"",
+	"custName":"",
+	"custId":"I00013",
+	"contactsType":"",
+	"custType":"",
+	"ecifId":"",
+	"email":"",
+	"mobile":"",
+	"phone":"",
+	"industry":"",
+	"readOnlyflag":"",
+	"authName":"",
+	"createTs":"",
+	"contactId":"",
+	"authInfo":[{
+		"name":"",
+		"authId":"",
+		"startTime":"",
+		"endTime":"",
+		"deptName":"",
+		"authRole":""}],
+	"isMain":"",
+	"fax":"",
+	"msn":"",
+	"qq":"",
+	"remark":"",
+	"team":"",
+	"frequency":"",
+	"cust_category":"",
+	"createBy":""},
+	"start":"0",
+	"length":"2",
+	"userInfo":
+	{"deptName":"华泰瑞联基金",
+	"userCode":"007212",
+	"roleList":["综合管理部"]}}
+
+---查询联系人详细信息接口 发送请求成功
+
+{"contactId":"02B429345BAF2190E053C0A837052190"}
+
+---删除联系人接口   发送请求成功
+
+{"contactId":"02B429345BBF2190E053C0A837052190",
+	"userInfo":
+	{"deptName":"华泰瑞联基金",
+	"userCode":"008948",
+	"roleList":["综合管理部"]}}
+---查询拜访记录列表接口  发送请求成功
+
+{"visitRecord":
+	{"visitDate":"",
+	"customerName":"",
+	"customerId":"02B429345BB52190E053C0A837052190",
+	"participants":"",
+	"readOnlyflag":"",
+	"participantsId":"",
+	"visitObject":"",
+	"sensitive":"N",
+	"startDate":"",
+	"endDate":"",
+	"positionName":"",
+	"interviewSummary":"",
+	"caseAnalyse":"",
+	"customerType":"",
+	"busChance":"",
+	"createBy":"",
+		"conditions":[{
+		"conditionId":"",
+		"materialName":"",
+		"materialProvider":"",
+		"createdTime":""}],
+	"authInfo":[{
+		"authId":"",
+		"name":"",
+		"authRole":"",
+		"deptName":"",
+		"startTime":"",
+		"endTime":""}],
+	"contactId":"",
+	"projectId":"",
+	"projectName":"",
+	"visitType":"",
+	"visitId":"",
+	"cust_category":""},
+	"start":"0",
+	"length":"2",
+	"userInfo":
+	{"deptName":"华泰瑞联基金",
+	"userCode":"008948",
+	"roleList":["综合管理部"]}}
+
+---查询拜访记录类型接口 发送请求成功
+
+---删除拜访记录接口  发送请求成功
+
+{"visitId":"76877DE8DCEB4AE4AC90F601C16C074F",
+	"userInfo":
+	{"deptName":"华泰瑞联基金",
+	"userCode":"002379",
+	"roleList":["综合管理部"]}}
+
+---查询所有客户接口  发送请求成功
+
+{"custName":"测试2222",
+	"loginCode":"007212"}
+
+---查询拜访记录详细信息接口 发送请求成功
+
+{"visitId":"DDA106A209F346828DB3C7F3E86300F6"}
+
+---查询过往交易记录列表接口 发送请求成功
+
+{"tradeHistoryInfo":
+	{"project_id":"",
+	"shortName":"",
+	"type":"",
+	"projectTypeName":"",
+	"brokerName":"",
+	"custId":"",
+	"userName":"",
+	"realName":"",
+	"trade_amount":""},
+	"start":"",
+	"length":""}
+
+---查询省份列表接口  发送请求成功
+
+---查询城市列表接口  发送请求成功
+
+{"parentValue":"DF15"}
+
+---查询拜访记录下的潜在业务机会列表接口 发送请求成功
+{"visitId":"ad161c4d4e624fcfa00142af6f8482aa",
+	"userInfo":
+	{"deptName":"",
+	"userCode":"009280",
+	"roleList":[""]}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

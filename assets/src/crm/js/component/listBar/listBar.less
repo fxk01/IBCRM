@@ -1,0 +1,35 @@
+.listBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(50,50,50,0.7);
+  .listBar_item{
+    width:1.2rem;
+    box-sizing: border-box;
+    .listBar_item_box{
+      width:100%;
+      box-sizing: border-box;
+      padding:0.1rem 0.2rem;
+      .listBar_item_icon{
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:0.1rem;
+        .iconfont{
+          color: white;
+        }
+      }
+      .listBar_item_title{
+        width:100%;
+        display: block;
+        white-space: nowrap;
+        word-break: break-all;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+@import "../../../css/variable";
+
+@circle_height:0.3rem;
+.timeLine{
+  margin:auto;
+  position: relative;
+  #triangle-up {
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 0.15rem solid transparent;
+    border-right: 0.15rem solid transparent;
+    border-bottom: 0.3rem solid @timeLine_arrow;
+  }
+  .line{
+    width:0.04rem;
+    background: @timeLine_arrow;
+    margin-left:0.12rem;
+  }
+  .topLine{
+    height:100%;
+  }
+  .timeLine_top{
+    width:100%;
+    height:0.4rem;
+    position: relative;
+  }
+  .timeLine_body{
+    width:100%;
+    box-sizing: border-box;
+    .am-list-body{
+      background-color:white;
+      border-top:none;
+      padding:0 .5rem 0 .3rem;
+    }
+    .am-list-body:after{
+      display: block;
+      position: absolute;
+      content: '';
+      left: 0;
+      width: 100vw;
+      border-bottom: 1PX solid #ddd;
+    }
+    .fortest{
+      height:calc(~"100vh - 0.9rem - 0.88rem - 0.32rem");
+    }
+    .am-list-header{
+      padding: 0.3rem .5rem 0 .3rem;
+    }
+    .timeLine_item{
+      position: relative;
+      padding-bottom: 0.3rem;
+      z-index: inherit;
+      margin: auto;
+      .popverBox{
+        position:absolute;
+        bottom:-1rem;
+        right:0;
+        z-index:99;
+        border-radius:0.1rem;
+        overflow:hidden
+      }
+      .line{
+        position: absolute;
+        width:0.04rem;
+        background: @timeLine_arrow;
+        height:calc(~"100% - @{circle_height} - 0.08rem");
+        margin-left:0.13rem;
+      }
+      .left{
+        float: left;
+        box-sizing: border-box;
+        width:0.3rem;
+        height:100%;
+        margin-right: 0.3rem;
+        .circle{
+          width: @circle_height;
+          height:@circle_height;
+          box-sizing: border-box;
+          background-color: #efefef;
+          border: 0.08rem @timeLine_spot solid;
+          -webkit-border-radius: 0.15rem;
+          margin:0.04rem 0;
+        }
+      }
+      .right{
+       overflow: hidden;
+        box-sizing: border-box;
+        .timeLine_item_header{
+          width:100%;
+          height:0.5rem;
+          box-sizing: border-box;
+        }
+        .timeLine_item_body{
+          width:100%;
+          box-sizing: border-box;
+          background: @timeLine_modal_bg;
+          border-radius: 0.2rem;
+          position: relative;
+          .mask{
+            position: absolute;
+            width:100%;
+            height:100%;
+            box-sizing: border-box;
+            background: rgba(0,0,0,.3);
+          }
+        }
+      }
+    }
+   a:last-child .timeLine_item{
+      .line{
+        height:calc(~"100% - 0.7rem");;
+      }
+      .popverBox{
+        top:-.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+/**
+ * Created by admin on 2017/5/5.
+ * xzqing
+ */
+
+@import "../../../css/variable";
+
+.basic{
+  width:100vw;
+  .am-navbar{background-color: @main_color;}
+  .my-drawer {position: relative;overflow: auto;}
+
+  .htSide{
+    height: 100vh; width: 80vw;background: url("../../../img/ui/img_menu_bg.png");background-size: 100% 100%;
+    .header{
+      height: 2.6rem;background-color: @menu_bg_head;width: 80vw;padding-left: 0.5rem;padding-top: 0.56rem; margin-bottom: 0.2rem;
+      .content{
+        display: flex;height: 1.48rem;align-items: center;
+        .left{width:1.48rem;height: 1.48rem;border-radius: 50%;margin-right: 0.4rem;}
+        .right{
+          h3{font-size: 0.28rem;color:@menu_font_main;margin-bottom: 0.2rem;}
+          p{font-size: 0.36rem;color:#fff;}
+        }
+      }
+    }
+    .menu{
+      .activeLink{
+        background: #000;
+      }
+      li{
+        height: 1.2rem;font-size: 0.32rem;color:@menu_font_main;display: flex;
+        align-items: center;
+        .left{
+          width: 1.2rem;display: flex;justify-content: center;
+        }
+        .right{
+          height: 1.2rem;border-bottom: 0.02rem solid #383143;flex: 1;line-height: 1.2rem;
+        }
+      }
+    }
+  }
+}

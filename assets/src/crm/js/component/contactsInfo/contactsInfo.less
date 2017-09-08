@@ -1,0 +1,320 @@
+/**
+ * @description: 联系人tab
+ * @author: likaiming
+ * @create: 2017/6/7
+ */
+
+.contactsInfo {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0;
+  .am-list-view-scrollview {
+    height:calc(~"100vh - 0.9rem - 0.86rem");
+  }
+  .contactListView {
+    height:calc(~"100vh - 0.9rem - 0.86rem");
+  }
+  .contactsShowCheckBox{
+    .am-list-item {
+      animation: listShow 0.5s forwards;
+      .am-list-thumb {
+        animation: checkBoxShow 0.5s forwards;
+      }
+    }
+  }
+  .contactsHiddenCheckBox{
+    .am-list-item{
+      animation: listHidden 0.5s forwards;
+      .am-list-thumb{
+        animation: checkBoxHidden 0.5s forwards;
+      }
+    }
+  }
+  @-webkit-keyframes listShow {
+    0% {
+      transform: translateX(-0.5rem);
+    }
+    100% {
+      transform: translateX(0rem);
+    }
+  }
+  @-webkit-keyframes checkBoxShow {
+    0% {
+      opacity: 0;
+    }
+    40% {
+      opacity: .2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes listHidden {
+    0% {
+      transform: translateX(0rem);
+    }
+    100% {
+      transform: translateX(-0.5rem);
+    }
+  }
+  @-webkit-keyframes checkBoxHidden {
+    0% {
+      opacity: 1;
+    }
+    40% {
+      opacity: .2;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .am-list-item .am-list-thumb:first-child {
+    margin-right: auto;
+  }
+  .am-list-item .am-list-line {
+    //padding-left: 0.3rem;
+  }
+  .am-search-cancel-show {
+    display: none;
+  }
+  .am-search-cancel-anim {
+    transition: margin-right 0s, opacity 0s;
+    transition-delay: 0s;
+  }
+  .am-list-item {
+    background-color: #f8f8f8;
+    transform: translateX(-0.8rem);
+    border-bottom:1px solid #dddddd;
+    width:calc(~"100vw + 0.8rem");
+    .am-list-thumb{
+      float: left;
+      opacity:0;
+      .am-checkbox-wrapper{
+        width:100%;
+        height:100%;
+      }
+      .am-checkbox{
+        position:static;
+        height:100%;
+      }
+      .am-checkbox-inner{
+        display: block;
+        position: static;
+      }
+    }
+    .am-list-line{
+      overflow: hidden;
+    }
+  }
+  .am-search {
+    //display: inline-flex;
+    //width: 80%;
+    //vertical-align: middle;
+    //padding: 0 0.25rem 0 0;
+    //background-color: transparent;
+  }
+  .contact-bg {
+    background-color: #efeff4;
+  }
+  .actionSheetContainer {
+    margin: 0 0.3rem;
+  }
+  .my-action-sheet .am-action-sheet-share-list-item-icon img {
+    width: 0.72rem;
+  }
+  .am-list-item.am-list-item-active {
+    background-color: white;
+  }
+  .row-title {
+    height: 1rem;
+    line-height: 1rem;
+    color: #888;
+    font-size: 0.36rem;
+    border-bottom: 1px solid #F6F6F6;
+  }
+  .row-text {
+    display: inline-block;
+    font-size: 0.32rem;
+    line-height: 1;
+  }
+  .am-list-item-box{
+    background-color: white;
+  }
+  .am-list-item-ml00 {
+    padding-left: 0;
+  }
+  .contactsItem{
+    position: relative;
+    .view{
+      h5{
+        color:#000;
+        font-size: 1em;
+      }
+      .row{
+        .couple{
+          display: inline-block;
+          padding:0.15em 0;
+          font-size: 0.3rem;
+          vertical-align: middle;
+          width: 100%;
+        }
+        .couple2{
+          width: 65%;
+          word-wrap: break-word;
+          word-break: break-all;
+          white-space: initial;
+          padding-left: 0.2rem;
+        }
+        span{
+          font-size: 0.95em;
+          word-wrap: break-word;
+          word-break: break-all;
+          white-space: initial;
+        }
+        .with100{width: 100%;}
+      }
+    }
+  }
+  .contactsItem03Lf {
+    //padding-left: 0.3rem;
+  }
+  .row {
+    width: 60%;
+  }
+  .copSpace {
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: initial;
+  }
+  //.ml02rem {
+  //  margin-left: 0.2rem;
+  //}
+  .am-refresh-control-ptr {
+    color: grey;
+    text-align: center;
+    height: 0.5rem;
+    margin-top: -0.5rem;
+    overflow: hidden;
+    width: 92%;
+  }
+  .am-list-footer {
+    padding: 0;
+    font-size: 0.28rem;
+    color: #888;
+    width: 92%;
+  }
+  .am-list .am-list-item.am-checkbox-item .am-list-thumb .am-checkbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: initial;
+  }
+  .am-wingblank.am-wingblank-lg {
+    margin-left: 0.3rem;
+    margin-right: 0;
+  }
+  .mySearchBar {
+    border-radius: 0.28rem;
+  }
+  .contactNamePhone {
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 0.01rem solid #ddd;
+    padding-left: 30px;
+    background-color: #ffffff;
+  }
+  .contactInformation {
+    line-height: 0.9rem;
+    height: 0.9rem;
+    padding-left: 0.3rem;
+  }
+  .ct30px {
+    font-size: 30px;
+    padding-left: 25px;
+    vertical-align: initial;
+    color: #999999;
+  }
+  .ct30px2 {
+    font-size: 30px;
+    padding: 0 12px 0 12px;
+    vertical-align: middle;
+    color: #cccccc;
+  }
+  .ct24px {
+    font-size: 24px;
+    vertical-align: middle;
+    color: #666666;
+  }
+  .ct28InTi {
+    font-size: 28px;
+    color: #666666;
+  }
+  .contactTwoTi {
+    background-color: #ffffff;
+    padding-left: 0.3rem;
+    line-height: initial;
+    padding-top: 0.2rem;
+  }
+  .name {
+    font-size: 24px;
+    color: #999999;
+  }
+  .value {
+    font-size: 28px;
+    color: #666666;
+    display: table;
+    margin-top: 24px;
+    margin-bottom: 0.3rem;
+    width: 150px;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: initial;
+    line-height: 1.1;
+  }
+  .couple {
+    display: inline-block;
+  }
+  .mr05px {
+    //margin: 0 0.5rem 0 0.5rem;
+  }
+  .wd280px {
+    width: 280px;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: initial;
+  }
+  .am-list-item .am-list-line {
+    padding-right: 0;
+  }
+  .by {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .fr485 {
+    width: 72%;
+    display: inline-block;
+  }
+  .am-list-body {
+    background-color: #f8f8f8;
+  }
+  .ctList {
+    margin-top: 36.25px;
+  }
+  .ctList:first-child {
+    margin-top: 0;
+  }
+  .ht90bottom {
+    height: 0.9rem;
+    margin-top: 0.36rem;
+    border-bottom: 0;
+    border-top: 0.01rem solid #ddd;
+    margin-bottom: 0;
+  }
+  .am-list-item .am-list-line .am-list-content {
+    padding: 0;
+  }
+}

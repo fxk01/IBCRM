@@ -1,0 +1,36 @@
+/**
+ * @description: 时间控件
+ * @author: zy
+ * @create: 2017/6/7
+ */
+@import "../../../css/variable";
+
+.dateCell{
+  .main{padding:0 0.3rem;}
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  height: 1rem;
+  align-items: center;
+  //background-color: rgb(243,245,249);
+  .name{width: 1.5rem;font-size: 0.28rem;display: inline-block;color:@name_color;}
+  .value{color:@value_color;font-size: 0.28rem!important;
+    .time{margin-left: 0.1rem;color:rgb(100,176,251);}
+  }
+
+  .main {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .right {
+    width: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  //.icon{position: absolute;right: 0.24rem;top:50%;transform: translateY(-50%);}
+}
