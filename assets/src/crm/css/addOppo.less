@@ -1,0 +1,71 @@
+@import "variable";
+
+.addOpportunity{
+  width: 100vw;
+  max-height: calc(~"100vh - .9rem");
+  overflow: hidden;
+  .am-list-item .am-list-line .am-list-extra{
+    flex-basis: auto;
+  }
+  .am-list-item.am-list-item-middle .am-list-line{
+    font-size: .28rem;
+  }
+  .am-list-item .am-list-line .am-list-content{
+    color: #444;
+    font-size: .28rem;
+  }
+  .message{
+    background-color: rgb(243,245,249);
+    width: 100vw;
+    .cell{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+      padding: 0.34rem 0.3rem;
+      input,textarea{color:@value_color;}
+      .am-input-extra{overflow:visible}
+      .iconfont{position: relative;top:-5px;}
+      .main {
+        color:@name_color;
+        font-size: 0.28rem!important;
+        display: flex;
+        align-items: center;
+        flex:6;
+        .am-list-item.am-input-item{
+          height:auto;
+          min-height: 0.4rem;
+        }
+        .am-textarea-control{
+          padding-top: 0;
+        }
+        .am-textarea-control textarea{
+          line-height: 1;
+        }
+        .am-list-item{
+          padding-left: 0;
+        }
+        .name{
+          width:2rem;
+          white-space: nowrap;
+          color:@name_color;
+          margin-right:0.1rem;
+        }
+        .text{
+          display: flex;
+          font-size: 0.28rem;
+          .nameLong{width: 9em;}
+          .value{
+            width: 5rem;
+            color:@value_color;flex: 1;
+          }
+        }
+      }
+      .right{
+        .am-icon-ui-xiangyou{
+          color: @f_color_666;
+        }
+      }
+    }
+  }
+}

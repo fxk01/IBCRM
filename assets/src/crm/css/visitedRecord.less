@@ -1,0 +1,125 @@
+/**
+ * @zy enterprise customer
+ * @@ 2017-5-18 establish
+ */
+@import "variable";
+
+.visitedRecord{
+  width: 100vw;
+  height: calc(~"100vh - .9rem" );
+  overflow: auto;
+  position: relative;
+  background-color: #f3f5f9;
+  .visitedRecord_box{
+    position: absolute;
+    top:0;
+    transition: all .6s cubic-bezier(.53,.14,.26,.95);
+  }
+  .message{
+    background-color: #f3f5f9;
+    position: relative;
+    .icon{color:#666;}
+    .cell{
+      display: flex;
+      .right {
+        white-space: nowrap;
+        flex:1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      border-bottom: 1px solid #ccc;
+      input,textarea{color:@value_color;}
+      .am-input-extra{overflow:visible}
+      .iconfont{position: relative;top:-5px;}
+      .main {
+        color:@name_color;
+        font-size: 0.28rem!important;
+        display: flex;
+        align-items: center;
+        flex:6;
+        .am-icon-ui-yewu{
+          color: @main_color;
+          margin-right:.2rem;
+        }
+        .am-icon-ui-jilu{
+          margin-right: 0.2rem;
+          color: @main_color;
+        }
+        .am-textarea-control{
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+        .am-textarea-control textarea{
+          line-height: 1.2;
+        }
+        .am-list-item{
+          padding-left: 0;
+        }
+        .text{
+          .ts{color:#ff938d;font-size: 0.28rem;text-align: right;margin: 0.1rem 0.2rem 0 0;}
+          padding: 0.34rem 0.3rem;display: flex;font-size: 0.28rem;flex: 1;
+          .name{
+            width: 1.5rem;white-space: nowrap;color:@name_color
+          }
+          .nameLong{width: 9em;}
+          .value{
+            color:@value_color;flex: 1;
+          }
+        }
+        .text2{flex-direction:column;
+          .areaMin{max-height: 1.1rem;overflow: hidden;}
+          .value{margin-top: 0.26rem;
+            .autoArea{max-height: none;transition: 0.3s;}
+            .am-textarea-item{padding-right: 0!important;}
+            textarea{line-height: 1.3; font:0.28rem PingFang SC,Helvetica Neue,Hiragino Sans GB,Helvetica,Microsoft YaHei,Arial!important;}
+            .am-textarea-control textarea{display: block;}
+          }
+        }
+      }
+    }
+    .spe-cell{
+      padding: 0 0.3rem;
+      height:1rem;
+      display: flex;
+      align-items: center;
+      .right{
+        padding-top: 0;
+        color: #abc8d8;
+      }
+      .warmText{margin-right: 0.1rem;}
+    }
+    .opportunityBox{
+      height:0;
+      transition: all .6s cubic-bezier(.53,.14,.26,.95);
+      box-sizing: border-box;
+      overflow: hidden;
+      .fortest{
+        height:calc(~"100vh - 0.9rem - 0.88rem - 0.18rem");
+        background:rgb(245,245,245);
+      }
+      .addBtn{
+        width:100%;
+        height:1rem;
+        box-sizing: border-box;
+        line-height: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.32rem;
+        color: @main_color;
+        .am-icon-add2{
+          margin-right: 0.2rem;
+          color: @main_color;
+        }
+      }
+    }
+    .open{
+      height:calc(~"100vh - 1.9rem" );
+    }
+  }
+}
+
+
+
+

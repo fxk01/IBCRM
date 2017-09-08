@@ -1,0 +1,14 @@
+{
+/*
+* npm i -D babel-preset-es2015
+* npm install --save-dev babel-preset-react
+* npm install babel-plugin-transform-object-assign
+**/
+  "presets": ["es2015", "react","stage-1"],
+  "plugins": [
+    ["import", { "style": "css", "libraryName": "antd-mobile" }],
+    "transform-es2015-destructuring",
+    "transform-object-assign",
+    "lodash"
+  ]
+}

@@ -1,0 +1,94 @@
+/**
+ * @zy enterprise customer
+ * @@ 2017-5-18 establish
+ */
+@import "variable";
+
+.am-popup-body{background-color: #fff;height: 8.5rem;}
+.popStyle{box-sizing: border-box;
+  position: relative;height: 100%;padding-bottom: 3rem;
+  .am-list{
+    height: 100%;display: flex;flex-direction: column;
+    .am-list-header{padding: 0;}
+    .am-list-body {overflow: auto;flex: 1;}
+  }
+  .bottomView{
+    .btns{
+      display: flex;justify-content: space-around;
+      .am-button{width: 45%;display: inline-block;}
+    }
+    .am-list-item{padding: 0;}
+    .select{height: 1.5rem;overflow: hidden;line-height: 0.5rem;margin-bottom: 0.3rem;}
+    box-sizing: border-box;height: 3rem;position: absolute;bottom: 0;width: 100%;padding:0.15rem 0.3rem;
+  }
+}
+
+
+
+
+
+
+.newVisit{
+  .icon-wrap{width: 0.44rem;text-align: center;}
+  width: 100vw;
+  .newVisitNav{
+    background-color: rgb(218,36,31)!important;
+    .am-navbar-left-icon,.am-navbar-title,
+    .am-navbar-right{color:#fff!important;}
+  }
+  .message{
+    .icon{color:#666;}
+    background-color: rgb(243,245,249);
+    //.cell:nth-child(2n-1){background-color: rgb(243,245,249)!important;}
+    .cell{
+      border-bottom: 0.01rem solid #ddd;
+      display: flex;
+      .right {
+        white-space: nowrap;
+        flex:1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .right-3{
+        flex:3
+      }
+      .main {
+        color:@name_color;
+        font-size: 0.28rem!important;
+        .am-textarea-control{padding-top: 0;}
+        .am-textarea-control textarea{line-height: 1.2;}
+        .am-list-item{padding-left: 0;}
+        flex:6;
+        align-items: center;
+        .text{
+          padding: 0.34rem 0.3rem;display: flex;font-size: 0.28rem;
+          .name{
+            width: 1.5rem;white-space: nowrap;color:@name_color
+          }
+          .nameLong{width: 9em;}
+          .value{
+            color:@value_color;flex: 1;
+          }
+        }
+      }
+      .switchStyle{float: right;}
+      position: relative;
+      input,textarea{color:@value_color;}
+      .am-input-extra{overflow:visible}
+      .clock{width: 0.65rem;height: 0.65rem;}
+    }
+    .spe-cell{
+      padding: 0 0.3rem;
+      height:1rem;
+      display: flex;
+      align-items: center;
+      .right{padding-top: 0;}
+      .warmText{margin-right: 0.1rem;}
+    }
+  }
+}
+
+
+
+
